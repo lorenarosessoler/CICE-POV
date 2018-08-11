@@ -1,6 +1,6 @@
 package com.cice.ejercicios;
 
-/*
+/**
  * EJERCICIO 01
  * 
  * Dado un número definido en el interior de una variable, se muestre en la pantalla el cuadrado de dicho número.

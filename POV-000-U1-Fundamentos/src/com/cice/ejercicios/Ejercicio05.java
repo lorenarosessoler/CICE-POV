@@ -1,6 +1,6 @@
 package com.cice.ejercicios;
 
-/*
+/**
  * EJERCICIO 05
  * 
  * Realizar un programa que, dado un array de números enteros, calcule la suma de todos los números contenidos en el mismo y 
@@ -20,10 +20,8 @@ public class Ejercicio05 {
 		//Recorro el array y hago la suma
 		for (int numero : arrayNumeros) {
 			System.out.println(numero);
-			
-			resultado = resultado + numero;	//Resultado = 0
+			resultado = resultado + numero;
 		}
-		
-		System.out.println("La suma de todos los números contenidos en el Array es igual a " +resultado);
+		System.out.println("La suma de todos los números contenidos en el array es igual a " +resultado);
 	}
 }
