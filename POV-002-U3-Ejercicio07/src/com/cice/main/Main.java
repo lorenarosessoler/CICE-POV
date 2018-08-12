@@ -2,7 +2,7 @@ package com.cice.main;
 
 import com.cice.precios.Precios;
 
-/*
+/**
  * EJERCICIO 07:
  * Como ejemplo de utilización de colecciones basadas en índices vamos a desarrollar un programa que nos permita registrar una serie de precios de 
  * productos en una colección, ofreciéndonos además la posibilidad de obtener unos datos estadísticos sobre los mismos.
