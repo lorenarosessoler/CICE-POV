@@ -2,7 +2,7 @@ package com.cice.ejercicios;
 
 import java.util.Scanner;
 
-/*
+/**
  * EJERCICIO 05
  * 
  * En este ejercicio crearemos un sencillo programa que solicite al usuario la introducción de dos números y muestre en la consola un 

@@ -2,7 +2,7 @@ package com.cice.ejercicios;
 
 import java.util.Scanner;
 
-/*
+/**
  * EJERCICIO 01
  * 
  * En este ejercicio vamos a crear un programa que de todas las cadenas de caracteres suministradas desde la línea de comandos 
@@ -21,7 +21,6 @@ public class Ejercicio01 {
 		String b = null;
 		String c = null;
 		
-		
 		System.out.print("Introduce la primera cadena de caracteres: ");
 		a = sc.nextLine();
 		System.out.print("Introduce la segunda cadena de caracteres: ");
@@ -37,6 +36,4 @@ public class Ejercicio01 {
 			System.out.print("La cadena de caracteres más larga es: " +c);
 		}
 	}
-
-
 }

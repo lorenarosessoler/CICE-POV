@@ -2,7 +2,7 @@ package com.cice.ejercicios;
 
 import java.util.Scanner;
 
-/*
+/**
  * EJERCICIO 02
  * 
  * Este ejercicio consiste en realizar un programa que nos muestre el número de vocales existentes en una cadena de caracteres dada.
@@ -50,11 +50,7 @@ public class Ejercicio02 {
 					case 'ú':
 						counter++;
 				}
-			
 			}
 			System.out.println("El número de vocales es de: " +counter); //13 vocales
-
-
 	}
-
 }

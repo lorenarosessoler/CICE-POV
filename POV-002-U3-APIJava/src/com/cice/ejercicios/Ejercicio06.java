@@ -1,6 +1,6 @@
 package com.cice.ejercicios;
 
-	/*
+	/**
 	 * EJERCICIO 06
 	 * 
 	 * Vamos a realizar un programa que dado una lista de números existentes en una cadena de caracteres separados por una coma (“,”), 

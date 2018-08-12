@@ -1,6 +1,6 @@
 package com.cice.ejercicios;
 
-/*
+/**
  * EJERCICIO 03
  *
  * Vamos a realizar un ejercicio en el que, dada una determinada cadena de caracteres, se inserte una barra / adicional entre palabras.
@@ -13,20 +13,34 @@ public class Ejercicio03 {
 	
 	public static void main (String [] args) {
 		
-		StringBuilder texto = new StringBuilder ("Esto es una cadena de caracteres");
-		int resultado = 0;
+		//OPCIÓN 1
+		String cadena = "Hola soy Lorena Roses";
+		System.out.println(cadena.replace(" ", "/"));
+		System.out.println("-------------------------------------");
 
-		for (int i = 0; i < texto.length(); i++) {
-			resultado = resultado + i;
-			//if (texto.charAt(resultado) == texto.indexOf(" ")){
-			//}
-			
-
+		
+		//OPCIÓN 2 - NO FUNCIONA
+		StringBuilder cadena2 = new StringBuilder ("Esta opcion no me sale");		
+		int posicionEspacio = 0;
+		
+		for (int i = 0; i < cadena2.length(); i++) {
+			posicionEspacio = cadena2.indexOf(" ", i);
+			System.out.println("Espacio en la posición: " +posicionEspacio); //4 11 14 17	
 		}
+		
+		if (posicionEspacio >= 0) {
+			System.out.println(cadena2.insert(posicionEspacio, "/"));
+		}
+		
+		
 
-		System.out.println(texto.insert(resultado, "/"));
+		
+	
+
+		
+		
+		
+		
 
 	}
-
-
 }
