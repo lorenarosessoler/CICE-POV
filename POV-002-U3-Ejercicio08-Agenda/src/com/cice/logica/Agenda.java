@@ -95,7 +95,7 @@ public class Agenda {
 			//Para guardar en agenda necesitamos una clave, que es un número, pasamos DNI a formato número
 			String dniSoloNum = contacto.getDni().substring(0, 8);
 			Integer dniNumeros = Integer.parseInt(dniSoloNum);
-			agenda.put(dniNumeros,contacto.toString());
+			agenda.put(dniNumeros, contacto.toString() );
 			System.out.println("Los datos introducidos son: " +contacto.getDni()+ " - " +contacto.toString());
 			
 			System.out.println("-----------------------");
